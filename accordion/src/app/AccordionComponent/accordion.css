@@ -1,0 +1,39 @@
+.accordion-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.accordion-title{
+    border: 1px solid black;
+    
+    background-color: #a2d259;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.activeAccordion{
+    display: block;
+    width: 100%;    
+    height: 100px;
+    padding: 10px;
+    background-color: #3ce53c   ;
+    margin: 10px;
+    transition: 2s ease;
+    animation: change 0.5s  ease-in;
+}
+
+.inactiveAccordion{
+    display: none;
+}
+
+@keyframes change {
+    0%{
+        transform: translateY(10%);
+    }
+}

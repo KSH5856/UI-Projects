@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.btn {
+  /* background-color: black; */
+  /* color: white; */
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  margin: 10px auto;
+}

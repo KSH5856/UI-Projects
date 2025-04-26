@@ -1,0 +1,26 @@
+:root {
+  --backgorund-color: #fff;
+  --text-color: #000;
+  --btn-bg-color: #000;
+  --btn-text-color: #fff;
+}
+
+.theme-container {
+  background-color: var(--backgorund-color);
+  color: var(--text-color);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  gap: 20px;
+  font-size: xx-large;
+  align-items: center;
+  transition: 0.5s;
+}
+
+button {
+  background-color: var(--btn-bg-color);
+  color: var(--btn-text-color);
+  transition: 0.5s;
+  padding: 10px;
+  border-radius: 10px;
+}

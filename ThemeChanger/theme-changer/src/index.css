@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --backgorund-color: #fff;
+  --text-color: #000;
+  --btn-bg-color: #000;
+  --btn-text-color: #fff;
+}
+
+[data-theme="dark"] {
+  --backgorund-color: #000;
+  --text-color: #fff;
+  --btn-bg-color: #fff;
+  --btn-text-color: #000;
+}

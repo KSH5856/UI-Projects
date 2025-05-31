@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Mini React Projects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a collection of mini React components built for learning and practice. Each project demonstrates a unique concept or functionality implemented using modern React (Hooks, functional components, etc.).
 
-## Available Scripts
+## 🚀 Projects Included
 
-In the project directory, you can run:
+- 📸 Image Slider – A responsive image carousel with navigation buttons.
+- 📁 Folder Structure Viewer – A collapsible file and folder tree structure component. A good example of how recursion works.
+- 🔳 QR Code Generator – Generate QR codes dynamically based on user input using qrcode.react.
+- 🎨 Random Color Generator – Click a button to generate and display random background colors.
+- ⭐ Star Rating Component – Interactive star rating system with hover and click functionality.
+- 📂 Accordion Component – Expandable/collapsible content sections for better UI organization.
+- 🌙 Theme Changer – Toggle between dark and light themes using a global CSS variable.
+- 📦 Load More Products – Fetches n products at a time and appends them on each button click while retaining previously fetched data.
 
-### `npm start`
+### 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React (functional components, hooks)
+- JavaScript (ES6+)
+- CSS / Tailwind CSS (if used)
+- HTML5
+- Optional Libraries: qrcode.react, classnames, etc.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📁 Folder Structure
 
-### `npm test`
+```bash
+  /mini-react-projects
+├── /image-slider
+├── /folder-structure
+├── /qr-generator
+├── /random-color-generator
+├── /star-rating
+├── /accordion
+├── /theme-changer
+└── README.md
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Each folder contains:
 
-### `npm run build`
+- Component.jsx
+- styles.css or tailwind.config.js
+- index.js for quick rendering/testing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ⚙️ How to Run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Clone the repository:
+```bash
+  git clone https://github.com/your-username/mini-react-projects.git
+```
+- Navigate into the project:
+```bash
+ cd mini-react-projects
+```
+- Install dependencies:
+```bash
+ npm install
+```
+- Start the development server:
+```bash
+ npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🎯 Goals & Learning Outcomes
 
-### `npm run eject`
+- Improve proficiency with React hooks like useState, useEffect, and useContext.
+- Build reusable, self-contained components.
+- Understand component-level state and props.
+- Practice clean and readable code structure.
+- Strengthen project organization and version control.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🙌 Contributions & Feedback
+This is a learning-based project, but suggestions and improvements are welcome! Feel free to fork, raise issues, or suggest enhancements.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📬 Contact
+If you'd like to connect or ask about any component, feel free to reach out:
+- Linkedin: https://www.linkedin.com/in/kashish-gupta5856/
+- Email: kashishgupta5856@gmail.com

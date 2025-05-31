@@ -4,11 +4,11 @@ This repository contains a collection of mini React components built for learnin
 
 ## 🚀 Projects Included
 
-- 📸 Image Slider – A responsive image carousel with navigation buttons.
+- 📸 Image Slider – A responsive image carousel with navigation buttons.(https://ksh-image-carousel.netlify.app/)
 - 📁 Folder Structure Viewer – A collapsible file and folder tree structure component. A good example of how recursion works.
 - 🔳 QR Code Generator – Generate QR codes dynamically based on user input using qrcode.react.
 - 🎨 Random Color Generator – Click a button to generate and display random background colors.
-- ⭐ Star Rating Component – Interactive star rating system with hover and click functionality.
+- ⭐ Star Rating Component – Interactive star rating system with hover and click functionality.(https://ksh-start-rating.netlify.app/)
 - 📂 Accordion Component – Expandable/collapsible content sections for better UI organization.
 - 🌙 Theme Changer – Toggle between dark and light themes using a global CSS variable.
 - 📦 Load More Products – Fetches n products at a time and appends them on each button click while retaining previously fetched data.
